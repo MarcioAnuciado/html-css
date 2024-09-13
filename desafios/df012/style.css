@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sacramento&family=Sriracha&display=swap');
+
+.passion-one-black {
+    font-family: "Passion One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 3em;
+  }
+  
+header {
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+header h1 {
+    padding: 50px 0px 0px 0px;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+header strong {
+    font-weight: bolder;
+}
+
+main {
+    margin: auto;
+}
+
+main > p {
+    font-family: "Sriracha";
+    line-height: 1.8em;
+}
+
+main img {
+    width: 500px;
+    height: 400px;
+}
+
+.texto-sobreposto1 {
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.308);
+    top: 500px;
+    color: rgb(243, 240, 240);
+    margin: auto;
+}
+
+.texto-sobreposto2 {
+    position: absolute;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    top: 1340px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+}

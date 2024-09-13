@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <H1>Imagen dinamica</H1>
+    <p>teste abrir esse site em outro dispositivo movel ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens\foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens\foto-m.png" type="image/png">    
+        <img src="imagens\foto-g.png" alt="imagen flexivel">
+    </picture>
+
+    <h1>Reproduzindo audios</h1>
+    <p>vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia\Bruno Mars - Locked Out Of Heaven (Official Music Video)(MP3_160K).mp3" type="audio/mpeg">
+        <source src="midia\Bruno Mars - Locked Out Of Heaven (Official Music Video)(MP3_160K).mp3" type="audio/ogg">
+        <source src="midia\Bruno Mars - Locked Out Of Heaven (Official Music Video)(MP3_160K).mp3" type="wav"><!--nao recomendado por ser muito pesado-->
+    </audio>
+</body>
+</html>

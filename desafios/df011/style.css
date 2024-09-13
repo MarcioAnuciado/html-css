@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    margin: auto;
+}
+
+.conteudo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.imagem-sobreposta {
+    position: absolute;
+    margin: auto;
+    align-items: center;
+}
+
+.imagem-fundo {
+    width: 100%;
+    height: 100%;
+}
