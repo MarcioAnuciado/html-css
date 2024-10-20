@@ -4,7 +4,7 @@
 
 .passion-one-black {
     font-family: "Passion One", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     color: white;
     font-size: 3em;
@@ -13,24 +13,37 @@
 header {
     background-color: black;
     text-align: center;
-    margin: 0px;
-    padding: 0px;
+    margin: -70px -35px 0px -35px;
+    font-size: xx-large;
 }
 
 header h1 {
-    padding: 50px 0px 0px 0px;
+    margin-bottom: 0px;
+    padding: 40px 20px 15px 20px;
 }
 
-header p {
-    color: white;
-    text-align: center;
+div {
     background-color: black;
-    padding: 0px;
-    margin: 0px;
+    margin: -8px;
+    text-align: center;
 }
 
-header strong {
-    font-weight: bolder;
+div p {
+    font-family: "Passion One";
+    color: white;
+    margin: 0px;
+    padding-bottom: 50px;
+    font-size: x-large;
+}
+
+div a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+div a:hover {
+    text-decoration: underline;
 }
 
 main {
@@ -40,27 +53,11 @@ main {
 main > p {
     font-family: "Sriracha";
     line-height: 1.8em;
+    font-size: xx-large;
+    padding: 50px 0px 0px 30px;
 }
 
 main img {
     width: 500px;
     height: 400px;
-}
-
-.texto-sobreposto1 {
-    position: absolute;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.308);
-    top: 500px;
-    color: rgb(243, 240, 240);
-    margin: auto;
-}
-
-.texto-sobreposto2 {
-    position: absolute;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.144);
-    top: 1340px;
-    color: rgb(255, 255, 255);
-    margin: auto;
 }
