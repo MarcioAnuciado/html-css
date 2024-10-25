@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+}
+
+div.astronauta {
+    background-position: center center;
+}
