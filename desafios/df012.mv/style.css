@@ -39,7 +39,7 @@ nav {
     text-align: center;
 }
 
-nav p {
+nav > p {
     font-family: sans-serif;
     color: white;
     margin: 0px;
@@ -65,9 +65,8 @@ main {
 main p {
     font-family: var(--font2);
     line-height: 2em;
+    padding: 2em 0em 2em 0em;
     font-size: 4vh;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
     padding-left: 40px;
     font-style: normal;
 }
