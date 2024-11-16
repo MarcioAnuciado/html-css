@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sacramento&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: 'Passion One', 'cursive';
+    --font2: 'Sriracha', 'cursive';
+    --font3: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+  
+header {
+    background-color: black;
+    text-align: center;
+    font-size: 5vh;
+    padding-top: 10px;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+header h1 {
+    padding-top: 50px;
+    font-family: var(--font1);
+    color: white;
+    font-variant: small-caps;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+}
+
+nav > p {
+    font-family: sans-serif;
+    color: white;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 120%;
+    font-weight: 550;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: auto;
+}
+
+main p {
+    font-family: var(--font2);
+    line-height: 2em;
+    padding: 2em 0em 2em 0em;
+    font-size: 4vh;
+    padding-left: 40px;
+    font-style: normal;
+}
+
+.texto1 {
+    color: white;
+    box-shadow: inset 6px 6px 8px rgba(0, 0, 0, 0.466);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-size: cover;
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-image: url(imagens/background001.jpg);
+}
+
+.texto2 {
+    color: white;
+    box-shadow: inset 6px 6px 8px rgba(0, 0, 0, 0.466);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-size: cover;
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-image: url(imagens/background002.jpg);
+}
+
+.p {
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 30px;
+    width: 430px;
+}
+
+footer {
+    font-family: var(--font3);
+    text-align: center;
+    background-color: black;
+    padding: 10px 0px 10px 0px;
+    font-size: medium;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
