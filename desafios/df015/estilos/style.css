@@ -24,7 +24,6 @@ section#telefone {
     height: 627px;
     width: 311px;
     background-repeat: no-repeat;
-    
     background-image: url('../pacote-d013/imagens/frame-iphone.png');
     background-size: cover;
 }
@@ -51,7 +50,7 @@ section#redes-sociais img {
 }
 
 section#redes-sociais img:hover {
-    border: 2px solid rgba(255, 255, 255, 0.596);
+    border: 2px solid rgba(255, 255, 255,);
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);
     transition: 0.5s;
