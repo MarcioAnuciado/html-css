@@ -1,3 +1,11 @@
 @charset "UTF=8";
 
 /* Apareçho em pe (portrait) */
+
+body {
+    background: url(../imagens/cev-portrait.jpg) yellow;
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
